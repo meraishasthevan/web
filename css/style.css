@@ -1,0 +1,123 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+}
+.container{
+	width:80%;
+	margin:auto;
+	
+}
+
+
+body{
+	font-family:arial;
+}
+.image1 img{
+   height:350px;
+   width:500px;
+   
+   border:3px solid black;
+}
+  
+.cont{
+	position:relative;
+}
+.meera{
+    padding:15px;
+	height:270px;
+	width:330px;
+	background-color:white;
+	border:1px solid white;
+	 
+	position:absolute;
+	top:60px;
+
+	left:160px;
+
+}
+ .cont1 p{
+	color:rgb(175, 181, 170);
+	margin-top:15px;
+}
+span{
+	font-size:15px;
+	color:rgb(175, 181, 170);
+}
+.icon i{
+	color:white;
+	font-size:14px;
+	
+}
+.cont1{
+	position:absolute;
+
+}
+.icon{
+	height:40px;
+	width:140px;
+	background-color:rgb(123, 242, 24);
+	padding:10px 15px;
+	
+	position:absolute;
+	top:240px;
+	left:-18px;
+}	
+
+.col-1{
+	width:8.33%;
+}
+.col-2{
+	width:16.66%;
+	
+}
+.col-3{
+	width:25%;
+	
+}
+.col-4{
+	width:33.32;
+}
+.col-5{
+	width:41.65%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.31;
+}
+.col-8{
+	width:66.64;
+	
+}
+.col-9{
+	width:75%;
+	padding:20px;
+}
+.col-10{
+	width:83.3%;
+	
+}
+.col-11{
+	width:91.63%;
+}
+.col-12{
+	width:100%;
+}
+/*media-querry-stars*/
+@media(max-width:575px){
+	.image1{
+		padding-right:15px;
+		margin-left:0px;
+	}
+}
+@media(min-width:576px){
+	
+}
+@media(min-width:768px){
+	
+}
+@media(min-width:992px){
+	
+}
